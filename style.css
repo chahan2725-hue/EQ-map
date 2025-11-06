@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+}
+
+#map {
+  flex: 1;
+}
+
+#sidebar {
+  width: 300px;
+  background: #f8f8f8;
+  padding: 10px;
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+.eq-item {
+  margin-bottom: 15px;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.eq-item h3 {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+}
+
+.eq-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
